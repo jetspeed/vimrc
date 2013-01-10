@@ -11,7 +11,7 @@ syntax enable
 syntax on
 
 " color theme
-color vividchalk
+" color vividchalk
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -109,6 +109,7 @@ hi Tb_Changed guifg=green ctermfg=green
 hi Tb_VisibleNormal ctermbg=252 ctermfg=235
 hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
 " bufexplorer
+" nmap \be :BufExplorer
 " easy-motion
 "let g:EasyMotion_leader_key = '<Leader>'
 let g:EasyMotion_leader_key = ','
