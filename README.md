@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Maple's Vim config
 ==================
 
