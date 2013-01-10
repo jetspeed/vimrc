@@ -42,12 +42,13 @@ Bundle 'nathanaelkane/vim-indent-guides'
 "--------------
 Bundle 'scrooloose/nerdtree'
 Bundle 'majutsushi/tagbar'
-Bundle 'humiaozuzu/TabBar'
+"Bundle 'humiaozuzu/TabBar'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/bufexplorer.zip'
 
 "-------------
 " Other Utils
@@ -60,7 +61,7 @@ Bundle 'nvie/vim-togglemouse'
 "----------------------------------------
 " web backend
 Bundle '2072/PHP-Indenting-for-VIm'
-"Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-rails'
 Bundle 'beyondwords/vim-jinja2'
 "Bundle 'digitaltoad/vim-jade'
 
