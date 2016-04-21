@@ -1,0 +1,18 @@
+[user]
+	name = jetspeed
+  email = shmimy-w@163.com
+[alias]
+  co = checkout
+  ci = commit -a
+  st = status
+  br = branch
+  oneline = log --pretty=oneline --since='2 days ago'
+  onelog = log -p -1
+[color]
+  status = auto
+  branch = auto
+  ui = auto
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
