@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+	<div class="control-group">
+		<label class="col-md-4 control-label"> ${1} </label>
+		<div class="col-md-6 controls">
+			<div class="textarea">
+				<textarea type="" ng-model="${2}" class="form-control"> ${3} </textarea>
+				<p class="help-block"> ${4:${1}} </p>
+			</div>
+		</div>
+	</div>
+	]]></content>
+	<tabTrigger>bs3-bftextarea</tabTrigger>
+</snippet>
+

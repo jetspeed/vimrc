@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+	<div class="control-group">
+		<label class="col-md-4 control-label" for="${1}">${2}</label>
+		<div class="col-md-6 controls">
+		   <input id="${1}" ng-model="${3}" type="text" placeholder="${2}" class="form-control input-xlarge">
+			<p class="help-block">录入${4:${2}</p>
+		</div>
+	</div>
+]]></content>
+	<tabTrigger>bs3-bfinput</tabTrigger>
+</snippet>
